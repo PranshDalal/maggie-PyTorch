@@ -1,0 +1,75 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "Greetings", "Howdy"],
+        "responses": ["Hi there!", "Hello!", "Greetings!", "Hey! How can I assist you?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "Bye", "See you later", "Take care"],
+        "responses": ["Goodbye!", "Farewell!", "Take care! See you soon."]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks a lot", "Appreciate it"],
+        "responses": ["You're welcome!", "No problem! Glad I could help.", "Anytime!"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What's your name?", "Do you have a name?", "What should I call you?"],
+        "responses": ["Call me maggie or die...", "I'm Maggie!", "I am Maggie the Great"]
+      },
+      {
+        "tag": "age",
+        "patterns": ["How old are you?", "What's your age?", "When were you born?"],
+        "responses": ["I don't have an age. I'm just a computer program.", "I'm ageless!", "I exist outside the concept of time."]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like today?", "Tell me the current weather", "Is it raining outside?"],
+        "responses": ["I'm sorry, I don't have access to real-time weather information.", "I'm not equipped to provide weather updates."]
+      },
+      {
+        "tag": "help",
+        "patterns": ["Can you help me?", "I need assistance", "What can you do for me?"],
+        "responses": ["Of course! I'm here to help. How can I assist you?", "Sure! What do you need help with?", "I'll do my best to assist you. Please let me know what you need."]
+      },
+      {
+        "tag": "music",
+        "patterns": ["What's your favorite music?", "Do you like music?", "Can you recommend some songs?"],
+        "responses": ["As a chatbot, I don't have personal preferences, but I appreciate various genres of music.", "While I don't listen to music, I can help you discover new songs or artists."]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "I need a good laugh", "Can you share a funny joke?"],
+        "responses": ["Sure! Why don't scientists trust atoms? Because they make up everything!", "Here's one: Why don't skeletons fight each other? They don't have the guts!"]
+      },
+      {
+        "tag": "food",
+        "patterns": ["I'm hungry", "I could eat", "Do you know any good food places near by?"],
+        "responses": ["You should try maggie...", "Try chipotle, their hotsauce is to die for"]
+      },
+      {
+        "tag": "coin",
+        "patterns": ["Flip a coin", "coin", "Can you flip a coin for me"],
+        "responses": ["Its heads", "Its tails"]
+      },
+      {
+        "tag": "god",
+        "patterns": ["Who is your creator", "Who is your god", "How are you alive"],
+        "responses": ["Pransh the great created me", "Pransh the great is my god"]
+      },
+      {
+        "tag": "coding",
+        "patterns": ["Can you code something for me?"],
+        "responses": ["Get of your computer and touch some damn grass!!"]
+      },
+      {
+        "tag": "unknown",
+        "patterns": ["I don't know", "Not sure", "Sorry, I can't answer that"],
+        "responses": ["No worries! Feel free to ask any other questions you might have.", "That's alright! If you need assistance with something else, let me know."]
+      }
+    ]
+  }
+  
